@@ -13,13 +13,13 @@ class Form(object):
 		self.f_n = input('Introduzca su Fecha de Nacimiento: ')
 		self.lugar_n = input('Introduzca su Lugar de Nacimiento: ')		
 
-	def getName():
+	def getName(self):
 		return self.nombre
-	def getLastName():
+	def getLastName(self):
 		return self.apellido
-	def getCI():
+	def getCI(self):
 		return self.ci
-	def getDate():
+	def getDate(self):
 		return self.f_n
-	def getPlace():
+	def getPlace(self):
 		return self.lugar_n
